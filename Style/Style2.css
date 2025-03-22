@@ -1,7 +1,7 @@
 
 body {
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #f06, #4a90e2);
+    font-family: 'Times New Roman', sans-serif;
+    background: linear-gradient(135deg, rgb(252, 252, 252), #4a90e2);
     color: #333;
     margin: 0;
     padding: 0;
@@ -28,7 +28,7 @@ nav {
 }
 
 nav a {
-    color: #fff;
+    color: #ff0000;
     text-decoration: none;
     padding: 10px 20px;
     transition: background 0.3s ease;
@@ -84,3 +84,15 @@ footer {
     width: 100%;
     bottom: 0;
 }
+a:link, a:visited {
+    background-color: #ce0000;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(121, 0, 64);
+  }

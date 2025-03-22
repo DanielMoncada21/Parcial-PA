@@ -2,10 +2,10 @@
 
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Lucida Handwriting', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #ed0000;
 }
 
 header {
@@ -30,7 +30,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #ddd;
+    background-color: #ff0000;
     color: black;
 }
 
@@ -39,11 +39,23 @@ main {
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #000000;
+    color: #fd0000;
     text-align: center;
     padding: 10px 0;
     position: fixed;
     width: 100%;
     bottom: 0;
 }
+a:link, a:visited {
+    background-color: #daf10f;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(155, 17, 193);
+  }
